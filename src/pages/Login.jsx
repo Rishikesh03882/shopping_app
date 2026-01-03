@@ -3,6 +3,8 @@ import { signup, login } from '../firebase'; // make sure this path is correct
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 
+
+
 const Login = () => {
   const [currentState, setCurrentState] = useState('Sign Up');
   const [name, setName] = useState('');
